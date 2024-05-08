@@ -16,7 +16,7 @@ const swiper = new Swiper('.swiper', {
     slidesPerView: 2,
     spaceBetween: 5,
     centeredSlides: true,
-    effect: "coverflow",
+   
 
     // If we need pagination
     pagination: {
