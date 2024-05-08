@@ -169,13 +169,17 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 @media screen and (max-width: 480px) {
 	#intro{
 		h1{
-			font-size:1.3rem;
+			font-size:1.1rem;
+margin:0;
 		}
 p{
 			font-size:0.8rem;
 margin:0;
-line-height-0;
+line-height:0;
 		}
+button{
+margin:0;
+}
 		#intro_text{
 		width:100%;
 	}
