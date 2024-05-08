@@ -173,6 +173,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 		}
 p{
 			font-size:0.8rem;
+margin:0;
+line-height-0;
 		}
 		#intro_text{
 		width:100%;
