@@ -10,6 +10,7 @@ body {
 	}
 
 }
+
 /*nav===============================================*/
 #nav {
 	a {
@@ -32,6 +33,7 @@ body {
 	}
 
 }
+
 /*intro========================================================*/
 #intro {
 	min-height: 10vh;
@@ -65,15 +67,18 @@ body {
 	}
 
 }
+
 /*gears========================================================*/
 #thegear {
 	img {
 		clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
 		aspect-ratio: 1/0.5;
 	}
-#gears{
-	width:95%;
-}
+
+	#gears {
+		width: 95%;
+	}
+
 	.gear {
 		background: #2b202087;
 		padding: 1rem;
@@ -85,6 +90,7 @@ body {
 	}
 
 }
+
 /*videos========================================================*/
 #play {
 	background: #141d2c;
@@ -101,6 +107,7 @@ body {
 	}
 
 }
+
 /*cards========================================================*/
 .my_cards {
 	border: 1px solid black;
@@ -129,20 +136,21 @@ body {
 }
 
 /*swiper========================================================*/
-.swiper-slide{
-
+.swiper-slide {
 }
+
 .gameBenefit {
-    height: 60vh;
-    justify-content:flex-end;
-    text-align: center;
-    .p-2{
-    	overflow:auto;
-    }
+	height: 60vh;
+	justify-content: flex-end;
+	text-align: center;
+
+	.p-2 {
+		overflow: auto;
+	}
 
 	img {
-		width:100%;
-		aspect-ratio:1/0.5;
+		width: 100%;
+		aspect-ratio: 1/0.5;
 	}
 
 }
@@ -212,15 +220,18 @@ body {
 }
 
 @media screen and (max-width:768px) {
-	body{
-		h2{
+	body {
+		h2 {
 			font-size: 1.2rem !important;
-    	line-height: 1.5rem !important;
+			line-height: 1.5rem !important;
 		}
+
 	}
-	#nav{
-		display:none;
+
+	#nav {
+		display: none;
 	}
+
 	#intro {
 		h1 {
 			font-size: 1.1rem;
@@ -229,7 +240,7 @@ body {
 
 		p {
 			font-size: 0.8rem;
-    	line-height: 1rem;
+			line-height: 1rem;
 		}
 
 		button {
@@ -237,7 +248,7 @@ body {
 		}
 
 		#intro_text {
-			padding:0 !important;
+			padding: 0 !important;
 			justify-content: flex-start;
 		}
 
@@ -267,15 +278,18 @@ body {
 	}
 
 }
+
 @keyframes pendulam {
-	0%{
-		transform:scale(1.2);
+	0% {
+		transform: scale(1.2);
 	}
-50%{
-		transform:scale(1.0);
+
+	50% {
+		transform: scale(1.0);
 	}
-100%{
-		transform:scale(1.2);
+
+	100% {
+		transform: scale(1.2);
 	}
 
 }
