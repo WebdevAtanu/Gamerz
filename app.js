@@ -11,12 +11,21 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     autoplay: {
-        delay: 4500,
+        delay: 8500,
     },
-    slidesPerView: 2,
-    spaceBetween: 5,
+    breakpoints: {
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 2,
+            spaceBetween: 5
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 5
+        }
+    },
     centeredSlides: true,
-   
+
 
     // If we need pagination
     pagination: {
