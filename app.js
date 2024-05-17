@@ -1,3 +1,7 @@
+document.getElementById("playbtn").addEventListener("click", (e) => {
+    document.getElementById("mainoverlay").style.display = "none";
+    e.target.style.display = "none";
+})
 document.getElementById("openMenu").addEventListener("click", () => {
     document.getElementById("colMenu").style.display = "block";
     document.getElementById("colMenu").style.position = "fixed";
@@ -5,6 +9,12 @@ document.getElementById("openMenu").addEventListener("click", () => {
 document.getElementById("closeMenu").addEventListener("click", () => {
     document.getElementById("colMenu").style.display = "none";
 })
+
+function init() {
+    let audio = new Audio("./asset/music.mp3");
+    console.log(audio.play());
+    audio.play();
+}
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
