@@ -22,11 +22,10 @@ body {
 }
 #playbtn{
 	position:absolute;
-	top:50%;
-	left:50%;
+	top:45%;
+	left:40%;
 	z-index:99;
 	background-color:white;
-	padding: 0.5rem;
     border-radius: 1rem;
 }
 /*logo=====================================*/
@@ -107,6 +106,7 @@ body {
 	.gear {
 		background: #2b202087;
 		padding: 1rem;
+		margin:0;
 
 		i {
 			animation: pendulam 3s ease infinite;
